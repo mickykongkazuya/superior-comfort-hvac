@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Superior Comfort Heating &amp; Cooling | Philadelphia HVAC Pros</title>
+<meta name="description" content="Superior Comfort Heating & Cooling — licensed furnace, boiler, central air, and heat pump service across Philadelphia and the suburbs. Fast repairs, honest pricing, 24/7 emergency service. Call (215) 416-6557.">
+<link rel="icon" href="images/logos/superior-comfort-mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#112D4E;
+  --navy-deep:#0B1F38;
+  --navy-2:#1A3A60;
+  --copper:#B07458;
+  --copper-deep:#9D6858;
+  --rose:#DEA896;
+  --rose-light:#FBC4B2;
+  --cream:#F5EEE7;
+  --cream-2:#ECE1D5;
+  --ink:#2E2722;
+  --taupe:#6B5F54;
+  --line:rgba(17,45,78,.12);
+  --line-d:rgba(222,168,150,.16);
+  --grad:linear-gradient(100deg,#9D6858 0%,#DEA896 50%,#FBC4B2 100%);
+  --maxw:1180px;
+  --r:16px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--cream);line-height:1.62;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;line-height:1.05;letter-spacing:-.02em;margin:0;color:var(--navy)}
+p{margin:0}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+:focus-visible{outline:2.5px solid var(--copper);outline-offset:3px;border-radius:4px}
+.eyebrow{font-family:'Inter',sans-serif;font-weight:500;font-size:.74rem;letter-spacing:.3em;text-transform:uppercase;color:var(--copper)}
+.copper-text{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hairline{height:1px;background:var(--grad);opacity:.55;border:0;margin:0}
+.btn{display:inline-flex;align-items:center;gap:.55rem;font-weight:600;font-size:1rem;padding:.92rem 1.6rem;border-radius:999px;border:1.5px solid transparent;cursor:pointer;transition:transform .2s ease,box-shadow .25s ease,filter .2s ease,background .2s,color .2s;white-space:nowrap}
+.btn-primary{background:var(--grad);color:var(--navy);box-shadow:0 12px 26px -12px rgba(157,104,88,.8)}
+.btn-primary:hover{transform:translateY(-2px);filter:brightness(1.05);box-shadow:0 18px 32px -12px rgba(157,104,88,.9)}
+.btn-outline{background:transparent;color:var(--cream);border-color:rgba(222,168,150,.45)}
+.btn-outline:hover{border-color:var(--rose);background:rgba(222,168,150,.1);transform:translateY(-2px)}
+.btn-navy{background:var(--navy);color:var(--cream)}
+.btn-navy:hover{background:var(--navy-2);transform:translateY(-2px)}
+.alert{background:var(--navy-deep);color:var(--cream)}
+.alert .wrap{display:flex;align-items:center;justify-content:center;gap:.7rem;padding:.55rem 24px;text-align:center;flex-wrap:wrap;font-size:.86rem}
+.alert .dot{width:8px;height:8px;border-radius:50%;background:var(--rose);animation:pulse 2.2s infinite}
+.alert a{font-family:'IBM Plex Mono',monospace;font-weight:500;color:var(--rose-light);letter-spacing:.02em}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(222,168,150,.55)}70%{box-shadow:0 0 0 9px rgba(222,168,150,0)}100%{box-shadow:0 0 0 0 rgba(222,168,150,0)}}
+@media (prefers-reduced-motion:reduce){.alert .dot{animation:none}}
+header.nav{position:sticky;top:0;z-index:50;background:rgba(11,31,56,.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--line-d)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;padding:.7rem 24px}
+.brand{display:flex;align-items:center;gap:.7rem;color:var(--cream)}
+.brand .mark{width:34px;height:34px;flex:0 0 auto}
+.brand .wordmark b{font-family:'Inter',sans-serif;font-weight:600;font-size:1rem;letter-spacing:.22em;text-transform:uppercase;line-height:1;color:var(--rose-light)}
+.brand .wordmark small{display:block;font-family:'Inter',sans-serif;font-size:.54rem;letter-spacing:.26em;text-transform:uppercase;color:rgba(222,168,150,.6);margin-top:4px}
+.nav-links{display:flex;align-items:center;gap:1.8rem}
+.nav-links a{color:var(--cream);font-size:.92rem;font-weight:500;opacity:.82;transition:opacity .2s}
+.nav-links a:hover{opacity:1;color:var(--rose-light)}
+.nav-cta{display:flex;align-items:center;gap:1rem}
+.nav-phone{display:flex;flex-direction:column;align-items:flex-end;line-height:1.1}
+.nav-phone span{font-family:'Inter',sans-serif;font-size:.58rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(222,168,150,.7)}
+.nav-phone a{color:var(--cream);font-weight:500;font-size:1rem;font-family:'IBM Plex Mono',monospace}
+.menu-btn{display:none;background:none;border:0;color:var(--cream);cursor:pointer;padding:.3rem}
+.hero{position:relative;background:var(--navy);color:var(--cream);overflow:hidden;text-align:center}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(720px 460px at 50% 16%, rgba(222,168,150,.22), transparent 62%),radial-gradient(620px 620px at 84% 96%, rgba(26,58,96,.6), transparent 60%);pointer-events:none}
+.hero .wrap{position:relative;padding:clamp(40px,6vw,68px) 24px clamp(56px,8vw,92px);display:flex;flex-direction:column;align-items:center}
+.hero-logo{width:min(420px,78vw);height:auto;margin-bottom:clamp(20px,4vw,38px);filter:drop-shadow(0 18px 50px rgba(0,0,0,.45))}
+.hero h1{font-size:clamp(2.3rem,5.2vw,4rem);font-weight:800;letter-spacing:-.03em;max-width:16ch}
+.hero p.lead{font-size:clamp(1.04rem,1.5vw,1.18rem);color:#CDD6E0;max-width:54ch;margin:1.3rem auto 2rem}
+.hero-cta{display:flex;gap:.9rem;flex-wrap:wrap;justify-content:center}
+.hero-stamps{display:flex;flex-wrap:wrap;gap:.6rem 1.6rem;justify-content:center;margin-top:2.4rem;padding-top:1.7rem;border-top:1px solid var(--line-d);max-width:680px}
+.hero-stamps span{font-family:'IBM Plex Mono',monospace;font-size:.74rem;letter-spacing:.04em;color:#B9C4D0;display:flex;align-items:center;gap:.45rem}
+.hero-stamps span::before{content:"";width:6px;height:6px;background:var(--rose);border-radius:50%}
+.trust{background:var(--navy-deep);color:var(--cream);border-top:1px solid var(--line-d);border-bottom:1px solid var(--line-d)}
+.trust .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.trust .cell{padding:1.5rem 1rem;text-align:center;border-right:1px solid var(--line-d)}
+.trust .cell:last-child{border-right:0}
+.trust .cell b{display:block;font-family:'Bricolage Grotesque',sans-serif;font-size:1.02rem;color:var(--rose-light);margin-bottom:.15rem}
+.trust .cell small{font-family:'IBM Plex Mono',monospace;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:rgba(205,214,224,.7)}
+.sec{padding:clamp(62px,8.5vw,116px) 0}
+.sec-head{max-width:54ch;margin-bottom:3rem}
+.sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
+.sec-head h2{font-size:clamp(1.9rem,3.6vw,2.9rem);margin:.8rem 0 0}
+.sec-head p{color:var(--taupe);margin-top:1rem;font-size:1.06rem}
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.svc{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:2rem 1.85rem;transition:transform .25s,box-shadow .25s,border-color .25s;position:relative}
+.svc:hover{transform:translateY(-4px);box-shadow:0 24px 46px -26px rgba(17,45,78,.4);border-color:rgba(176,116,88,.4)}
+.svc .ic{width:48px;height:48px;border-radius:13px;background:var(--cream-2);display:flex;align-items:center;justify-content:center;margin-bottom:1.2rem;color:var(--copper-deep)}
+.svc h3{font-size:1.22rem;margin-bottom:.55rem}
+.svc p{color:var(--taupe);font-size:.94rem;margin-bottom:1rem}
+.svc ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.4rem}
+.svc ul li{font-size:.86rem;color:var(--ink);display:flex;gap:.55rem;align-items:flex-start}
+.svc ul li::before{content:"";width:6px;height:6px;margin-top:.5rem;flex:0 0 auto;background:var(--copper);border-radius:50%}
+.gallery{background:var(--cream-2)}
+.gal-grid{column-count:4;column-gap:14px}
+.gal{break-inside:avoid;margin:0 0 14px;position:relative;overflow:hidden;border-radius:14px;background:var(--navy);line-height:0}
+.gal img{width:100%;height:auto;transition:transform .6s ease}
+.gal:hover img{transform:scale(1.06)}
+.gal .cap{position:absolute;left:0;right:0;bottom:0;padding:1.7rem .9rem .8rem;line-height:1.3;background:linear-gradient(transparent,rgba(11,31,56,.85));color:var(--cream);font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.04em}
+.gal-note{margin-top:1.4rem;font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--taupe);letter-spacing:.02em}
+.why{background:var(--navy);color:var(--cream)}
+.why .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:54px;align-items:center}
+.why-photo{position:relative;border-radius:18px;overflow:hidden;box-shadow:0 30px 60px -30px rgba(0,0,0,.6);border:1px solid var(--line-d)}
+.why-photo img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/5}
+.why-photo .badge{position:absolute;left:18px;bottom:18px;background:rgba(11,31,56,.78);backdrop-filter:blur(6px);border:1px solid var(--line-d);border-radius:12px;padding:.7rem 1rem;font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.06em;color:var(--rose-light)}
+.why h2{color:var(--cream)}
+.why .lead{color:#C9D2DC;margin:1.2rem 0 2rem;font-size:1.06rem}
+.why-list{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem 2rem}
+.why-item h3{font-size:1.06rem;color:var(--cream);margin-bottom:.35rem;display:flex;align-items:center;gap:.6rem}
+.why-item h3 .b{width:26px;height:26px;border-radius:8px;background:rgba(222,168,150,.18);color:var(--rose-light);display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.why-item p{color:#AAB6C2;font-size:.92rem}
+.proc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;counter-reset:step}
+.step{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:1.9rem 1.5rem;position:relative}
+.step .n{font-family:'IBM Plex Mono',monospace;font-size:.78rem;color:var(--copper);font-weight:500;letter-spacing:.1em}
+.step h3{font-size:1.14rem;margin:.85rem 0 .5rem}
+.step p{font-size:.9rem;color:var(--taupe)}
+.step:not(:last-child)::after{content:"";position:absolute;right:-9px;top:50%;width:14px;height:1px;background:var(--grad);z-index:2}
+.areas{background:var(--cream-2)}
+.area-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.area{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:1.5rem 1.6rem}
+.area h3{font-size:1.08rem;margin-bottom:.7rem}
+.tags{display:flex;flex-wrap:wrap;gap:.45rem}
+.tags span{font-size:.76rem;font-family:'IBM Plex Mono',monospace;background:var(--cream);border:1px solid var(--line);color:var(--ink);padding:.28rem .6rem;border-radius:7px}
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.quote{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:2rem 1.85rem;display:flex;flex-direction:column}
+.stars{color:var(--copper);letter-spacing:.16em;font-size:.95rem;margin-bottom:1rem}
+.quote p{color:var(--ink);font-size:1rem;font-style:italic;flex:1}
+.quote .who{margin-top:1.3rem;font-family:'IBM Plex Mono',monospace;font-size:.76rem;letter-spacing:.03em;color:var(--taupe)}
+.quote .who b{color:var(--navy);font-style:normal}
+.book{background:var(--navy);color:var(--cream)}
+.book .wrap{display:grid;grid-template-columns:.95fr 1.05fr;gap:48px;align-items:start}
+.book-intro h2{color:var(--cream)}
+.book-intro p{color:#C9D2DC;margin-top:1.05rem}
+.contact-rows{margin-top:2rem;display:flex;flex-direction:column;gap:1.05rem}
+.crow{display:flex;gap:.9rem;align-items:flex-start}
+.crow .ci{width:40px;height:40px;border-radius:11px;background:rgba(222,168,150,.16);color:var(--rose-light);display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.crow small{display:block;font-family:'IBM Plex Mono',monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(222,168,150,.7)}
+.crow a,.crow b{color:var(--cream);font-weight:500;font-size:1rem}
+.ticket{background:var(--cream);color:var(--ink);border-radius:16px;box-shadow:0 40px 80px -40px rgba(0,0,0,.6);position:relative;overflow:hidden}
+.ticket::before,.ticket::after{content:"";position:absolute;width:26px;height:26px;border-radius:50%;background:var(--navy)}
+.ticket::before{left:-13px;top:84px}
+.ticket::after{right:-13px;top:84px}
+.ticket-head{background:var(--navy-deep);color:var(--cream);padding:1.25rem 1.8rem;display:flex;justify-content:space-between;align-items:center}
+.ticket-head .t{font-family:'IBM Plex Mono',monospace;font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(222,168,150,.7)}
+.ticket-head .t b{display:block;font-family:'Bricolage Grotesque',sans-serif;color:var(--cream);font-size:1.12rem;letter-spacing:-.01em;margin-top:.2rem}
+.ticket-head .no{font-family:'IBM Plex Mono',monospace;font-size:.7rem;color:var(--rose-light);letter-spacing:.08em}
+.perf{height:0;border-top:2px dashed rgba(17,45,78,.18);margin:0 1.8rem}
+.ticket-body{padding:1.6rem 1.8rem 1.9rem}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:1rem 1.1rem}
+.field{display:flex;flex-direction:column;gap:.35rem}
+.field.full{grid-column:1/-1}
+.field label{font-family:'IBM Plex Mono',monospace;font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe)}
+.field input,.field textarea,.field select{font-family:'Inter',sans-serif;font-size:.95rem;color:var(--ink);padding:.7rem .85rem;border:1.5px solid var(--line);border-radius:10px;background:#fff;transition:border-color .2s,box-shadow .2s}
+.field input:focus,.field textarea:focus,.field select:focus{outline:none;border-color:var(--copper);box-shadow:0 0 0 3px rgba(176,116,88,.16)}
+.field textarea{resize:vertical;min-height:78px}
+.radio-row{display:flex;gap:.6rem}
+.radio-row label{display:flex;align-items:center;gap:.45rem;border:1.5px solid var(--line);border-radius:10px;padding:.55rem .9rem;cursor:pointer;font-size:.9rem;flex:1;justify-content:center;transition:.2s}
+.radio-row input{accent-color:var(--copper)}
+.radio-row label:has(input:checked){border-color:var(--copper);background:rgba(176,116,88,.08);color:var(--copper-deep);font-weight:600}
+.ticket-submit{margin-top:1.4rem;width:100%;justify-content:center}
+.form-note{font-family:'IBM Plex Mono',monospace;font-size:.65rem;color:var(--taupe);text-align:center;margin-top:.9rem}
+.confirm{display:none;background:rgba(176,116,88,.1);border:1.5px solid var(--copper);color:var(--copper-deep);border-radius:10px;padding:.9rem 1rem;margin-top:1rem;font-size:.9rem;text-align:center}
+.confirm.show{display:block}
+footer{background:var(--navy-deep);color:var(--cream);padding:60px 0 30px;border-top:1px solid var(--line-d)}
+.foot-top{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px;align-items:start}
+.foot-logo{width:230px;height:auto;margin-bottom:1rem}
+.foot-brand p{color:#9FB0BF;font-size:.9rem;max-width:34ch}
+.foot-col h4{font-family:'Inter',sans-serif;font-weight:600;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--rose);margin:0 0 1rem}
+.foot-col a,.foot-col p{display:block;color:#C9D2DC;font-size:.9rem;margin-bottom:.55rem;transition:color .2s}
+.foot-col a:hover{color:var(--rose-light)}
+.foot-bottom{margin-top:46px;padding-top:22px;border-top:1px solid var(--line-d);display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:center}
+.foot-bottom p{font-family:'IBM Plex Mono',monospace;font-size:.7rem;color:rgba(222,168,150,.65);letter-spacing:.03em}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+@media (max-width:900px){
+  .nav-links{display:none}
+  .menu-btn{display:block}
+  .nav-links.open{display:flex;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:flex-start;gap:0;background:var(--navy-deep);padding:.5rem 24px 1rem;border-bottom:1px solid var(--line-d)}
+  .nav-links.open a{padding:.7rem 0;width:100%;border-bottom:1px solid var(--line-d)}
+  .trust .wrap{grid-template-columns:1fr 1fr}
+  .trust .cell:nth-child(2){border-right:0}
+  .svc-grid{grid-template-columns:1fr 1fr}
+  .gal-grid{column-count:3}
+  .why .wrap{grid-template-columns:1fr;gap:34px}
+  .why-photo img{aspect-ratio:16/11}
+  .proc-grid{grid-template-columns:1fr 1fr}
+  .step:not(:last-child)::after{display:none}
+  .area-grid{grid-template-columns:1fr 1fr}
+  .quotes{grid-template-columns:1fr}
+  .book .wrap{grid-template-columns:1fr;gap:36px}
+  .foot-top{grid-template-columns:1fr 1fr}
+}
+@media (max-width:560px){
+  .svc-grid,.area-grid,.proc-grid,.foot-top{grid-template-columns:1fr}
+  .why-list{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:1fr}
+  .hero-cta{flex-direction:column;align-items:stretch;width:100%}
+  .hero-cta .btn{justify-content:center}
+  .nav-phone{display:none}
+  .gal-grid{column-count:2}
+}
+</style>
+</head>
+<body>
+<div class="alert">
+  <div class="wrap">
+    <span class="dot"></span>
+    <span>No heat or no AC? We answer day and night —</span>
+    <a href="tel:+12154166557">call (215) 416-6557</a>
+  </div>
+</div>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Superior Comfort home">
+      <img class="mark" src="images/logos/superior-comfort-mark.png" alt="">
+      <span class="wordmark"><b>Superior Comfort</b><small>Heating &amp; Cooling</small></span>
+    </a>
+    <nav class="nav-links" id="navlinks">
+      <a href="#services">Services</a>
+      <a href="#work">Our work</a>
+      <a href="#why">Why us</a>
+      <a href="#areas">Service areas</a>
+      <a href="#book">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <span class="nav-phone"><span>Dispatch line</span><a href="tel:+12154166557">(215) 416-6557</a></span>
+      <a href="#book" class="btn btn-primary">Book service</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <img class="hero-logo" src="images/logos/superior-comfort-logo-transparent.png" alt="Superior Comfort Heating & Cooling">
+    <h1>Total <span class="copper-text">comfort</span> for every Philadelphia home.</h1>
+    <p class="lead">Licensed furnace, boiler, central air, and heat pump service across Philadelphia and the suburbs. Fast repairs, honest pricing, and 24/7 emergency support, summer and winter.</p>
+    <div class="hero-cta">
+      <a href="tel:+12154166557" class="btn btn-primary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+        Call (215) 416-6557
+      </a>
+      <a href="#book" class="btn btn-outline">Book a service visit</a>
+    </div>
+    <div class="hero-stamps">
+      <span>Licensed &amp; insured</span>
+      <span>24/7 emergency</span>
+      <span>Heating &amp; cooling</span>
+      <span>Upfront pricing</span>
+    </div>
+  </div>
+</section>
+
+<section class="trust">
+  <div class="wrap">
+    <div class="cell"><b>Same-day service</b><small>Emergency available</small></div>
+    <div class="cell"><b>Licensed &amp; insured</b><small>Fully credentialed</small></div>
+    <div class="cell"><b>Upfront pricing</b><small>Approve before we work</small></div>
+    <div class="cell"><b>All major brands</b><small>Gas · oil · electric</small></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="sec" id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">What we do</div>
+      <h2>One company for heating <span class="copper-text">and</span> cooling</h2>
+      <p>We service residential and light commercial systems across the metro area — from a furnace that won't light to a condenser that won't cool.</p>
+    </div>
+    <div class="svc-grid">
+      <article class="svc reveal">
+        <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 7h6M9 11h6"/><circle cx="12" cy="16.5" r="1.6"/></svg></div>
+        <h3>Furnace repair &amp; replacement</h3>
+        <p>No-heat calls are our specialty. We find the real fault fast and only replace when it makes sense.</p>
+        <ul><li>No-heat troubleshooting</li><li>Ignition &amp; airflow faults</li><li>High-efficiency upgrades</li></ul>
+      </article>
+      <article class="svc reveal">
+        <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 8h8v4H8z"/><path d="M9 16h6"/></svg></div>
+        <h3>Boiler service &amp; conversions</h3>
+        <p>Boilers need specialized expertise — steam and hot-water, cast iron and high-efficiency alike.</p>
+        <ul><li>Leaks &amp; pressure issues</li><li>Steam &amp; hydronic systems</li><li>Replacements &amp; conversions</li></ul>
+      </article>
+      <article class="svc reveal">
+        <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 14a4 4 0 0 1 0-8 5 5 0 0 1 9.6-1.5A4.5 4.5 0 1 1 17 14Z"/><path d="M7 19h.01M11 21h.01M15 18h.01"/></svg></div>
+        <h3>Central air &amp; AC repair</h3>
+        <p>When the condenser quits in July, we get cool air flowing again — repairs and full replacements.</p>
+        <ul><li>No-cool diagnostics</li><li>Refrigerant &amp; compressor</li><li>Condenser replacement</li></ul>
+      </article>
+      <article class="svc reveal">
+        <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg></div>
+        <h3>Heat pump install &amp; repair</h3>
+        <p>One efficient system that heats and cools. We install, repair, and tune for year-round comfort.</p>
+        <ul><li>New installations</li><li>Diagnostics &amp; repair</li><li>Seasonal tune-ups</li></ul>
+      </article>
+      <article class="svc reveal">
+        <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2s6 5.5 6 10a6 6 0 0 1-12 0c0-4.5 6-10 6-10Z"/></svg></div>
+        <h3>Water heater service</h3>
+        <p>Cold showers, no thanks. We diagnose, repair, and replace tank and tankless water heaters.</p>
+        <ul><li>Diagnosis &amp; repair</li><li>Tank &amp; tankless</li><li>Full replacements</li></ul>
+      </article>
+      <article class="svc reveal">
+        <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v2M12 19v2M3 12h2M19 12h2"/><circle cx="12" cy="12" r="4"/><path d="m14.5 9.5 3-3"/></svg></div>
+        <h3>Maintenance &amp; tune-ups</h3>
+        <p>Seasonal tune-ups for heating and cooling that catch small problems before they leave you stuck.</p>
+        <ul><li>Spring AC &amp; fall heat checks</li><li>Safety inspections</li><li>Filter &amp; airflow service</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- OUR WORK gallery -->
+<section class="sec gallery" id="work">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="eyebrow">Our recent work</div>
+      <h2>Real installs from around the metro</h2>
+      <p>A look at furnace, boiler, and AC jobs we've handled across Philadelphia and the suburbs.</p>
+    </div>
+    <div class="gal-grid">
+      <figure class="gal reveal"><img src="images/photos/furnace-high-efficiency.jpg" alt="High-efficiency furnace installation" loading="lazy"><figcaption class="cap">High-efficiency furnace install</figcaption></figure>
+      <figure class="gal reveal"><img src="images/photos/ac-condenser.jpg" alt="Central AC condenser" loading="lazy"><figcaption class="cap">Central AC condenser</figcaption></figure>
+      <figure class="gal reveal"><img src="images/photos/boiler-furnace-service.jpg" alt="Boiler and furnace service" loading="lazy"><figcaption class="cap">Boiler &amp; furnace service</figcaption></figure>
+      <figure class="gal reveal"><img src="images/photos/furnace-lennox.jpg" alt="Lennox furnace installation" loading="lazy"><figcaption class="cap">Lennox furnace install</figcaption></figure>
+      <figure class="gal reveal"><img src="images/photos/gas-boiler.jpg" alt="Gas boiler tune-up" loading="lazy"><figcaption class="cap">Gas boiler tune-up</figcaption></figure>
+      <figure class="gal reveal"><img src="images/photos/furnace-payne.jpg" alt="Payne furnace replacement" loading="lazy"><figcaption class="cap">Payne furnace replacement</figcaption></figure>
+      <figure class="gal reveal"><img src="images/photos/ac-condenser-grass.jpg" alt="AC condenser replacement" loading="lazy"><figcaption class="cap">AC condenser replacement</figcaption></figure>
+    </div>
+    <p class="gal-note">Photos are from completed jobs. Swap in your latest project shots anytime.</p>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why sec" id="why">
+  <div class="wrap">
+    <div class="why-photo reveal">
+      <img src="images/photos/furnace-high-efficiency.jpg" alt="Furnace installation by Superior Comfort" loading="lazy">
+      <span class="badge">Licensed · insured · local</span>
+    </div>
+    <div class="reveal">
+      <div class="eyebrow">Why Superior</div>
+      <h2>Heating &amp; cooling done by people who pick up the phone</h2>
+      <p class="lead">When your system breaks down, you need a licensed professional you can trust. We keep Philadelphia homes comfortable year-round — from emergency repairs to full system replacements.</p>
+      <div class="why-list">
+        <div class="why-item"><h3><span class="b"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg></span> Licensed &amp; insured</h3><p>Credentialed technicians on every job, so the work is safe, code-correct, and backed.</p></div>
+        <div class="why-item"><h3><span class="b"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg></span> Honest, upfront pricing</h3><p>You see the price and approve it before we touch a tool. No surprises on the invoice.</p></div>
+        <div class="why-item"><h3><span class="b"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg></span> Every brand &amp; fuel type</h3><p>Gas, oil, and electric systems from all major manufacturers, heating and cooling.</p></div>
+        <div class="why-item"><h3><span class="b"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg></span> Local to Philadelphia</h3><p>A neighborhood company, not a call center. We know these homes and these seasons.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="sec" id="process">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="eyebrow">How service works</div>
+      <h2>From breakdown to comfort in four steps</h2>
+    </div>
+    <div class="proc-grid">
+      <div class="step reveal"><div class="n">STEP 01</div><h3>Call or book</h3><p>Tell us what's happening. We answer 24/7 and get you on the schedule fast.</p></div>
+      <div class="step reveal"><div class="n">STEP 02</div><h3>We diagnose</h3><p>A licensed tech finds the real problem — no guessing, no upselling.</p></div>
+      <div class="step reveal"><div class="n">STEP 03</div><h3>You approve</h3><p>Clear, upfront pricing for the fix. Work starts only once you say yes.</p></div>
+      <div class="step reveal"><div class="n">STEP 04</div><h3>Comfort restored</h3><p>We do it right and confirm your home is comfortable before we leave.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- AREAS -->
+<section class="areas sec" id="areas">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="eyebrow">Where we work</div>
+      <h2>Serving Philadelphia and the surrounding counties</h2>
+      <p>We provide heating and cooling service throughout the metro area.</p>
+    </div>
+    <div class="area-grid">
+      <div class="area reveal"><h3>Philadelphia</h3><div class="tags"><span>Center City</span><span>Northeast</span><span>Northwest</span><span>South Philly</span></div></div>
+      <div class="area reveal"><h3>Montgomery County</h3><div class="tags"><span>Jenkintown</span><span>Ardmore</span><span>Norristown</span><span>Abington</span></div></div>
+      <div class="area reveal"><h3>Delaware County</h3><div class="tags"><span>Media</span><span>Drexel Hill</span><span>Springfield</span><span>Havertown</span></div></div>
+      <div class="area reveal"><h3>Bucks County</h3><div class="tags"><span>Doylestown</span><span>Levittown</span><span>Newtown</span><span>Bensalem</span></div></div>
+      <div class="area reveal"><h3>The Main Line</h3><div class="tags"><span>Bryn Mawr</span><span>Wayne</span><span>Villanova</span><span>Haverford</span></div></div>
+      <div class="area reveal"><h3>Not sure?</h3><div class="tags"><span>Just call</span><span>(215) 416-6557</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="sec" id="reviews">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="eyebrow">From homeowners</div>
+      <h2>Neighbors we've kept comfortable</h2>
+    </div>
+    <div class="quotes">
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>"Furnace died on a Sunday in January. They had someone out the same afternoon and we were warm by dinner. Straight answers the whole way."</p><div class="who"><b>Maria D.</b> — South Philly</div></div>
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>"AC went out in a July heat wave and they squeezed us in same day. Diagnosed the compressor fast and the price matched the quote exactly."</p><div class="who"><b>James K.</b> — Ardmore</div></div>
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>"Replaced our old furnace with a high-efficiency unit and the gas bill dropped noticeably. Clean work, and they showed up when they said they would."</p><div class="who"><b>Priya S.</b> — Northeast Philly</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="book sec" id="book">
+  <div class="wrap">
+    <div class="book-intro reveal">
+      <div class="eyebrow">Request service</div>
+      <h2>Book a visit, or call and we'll dispatch a tech</h2>
+      <p>Fill out the ticket and we'll confirm your appointment, usually within the hour during business times. In an emergency, calling is fastest.</p>
+      <div class="contact-rows">
+        <div class="crow"><div class="ci"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg></div><div><small>Dispatch line · 24/7</small><a href="tel:+12154166557">(215) 416-6557</a></div></div>
+        <div class="crow"><div class="ci"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></div><div><small>Email</small><a href="mailto:1superiorcomfortllc@gmail.com">1superiorcomfortllc@gmail.com</a></div></div>
+        <div class="crow"><div class="ci"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg></div><div><small>Shop</small><b>545 N 58th Street, Philadelphia, PA 19131</b></div></div>
+      </div>
+    </div>
+
+    <form class="ticket reveal" id="bookForm" novalidate>
+      <div class="ticket-head">
+        <div class="t">Superior Comfort<b>Service Request</b></div>
+        <div class="no">No. SC-0001</div>
+      </div>
+      <div class="perf"></div>
+      <div class="ticket-body">
+        <div class="fgrid">
+          <div class="field full"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Jane Doe" required></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@email.com" required></div>
+          <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(215) 555-0123" required></div>
+          <div class="field"><label for="service">System</label><select id="service" name="service"><option>Furnace</option><option>Boiler</option><option>Central air / AC</option><option>Heat pump</option><option>Water heater</option><option>Not sure / other</option></select></div>
+          <div class="field"><label for="date">Preferred date</label><input id="date" name="date" type="date"></div>
+          <div class="field full"><label>Preferred time</label><div class="radio-row"><label><input type="radio" name="time" value="morning" checked> Morning</label><label><input type="radio" name="time" value="afternoon"> Afternoon</label></div></div>
+          <div class="field full"><label for="notes">What's going on?</label><textarea id="notes" name="notes" placeholder="No cool air since this morning, AC runs but blows warm..."></textarea></div>
+        </div>
+        <button type="submit" class="btn btn-primary ticket-submit">Request appointment</button>
+        <p class="form-note">Or call (215) 416-6557 for fastest dispatch</p>
+        <div class="confirm" id="confirm">Thanks — your request is in. We'll call to confirm shortly. For emergencies, call (215) 416-6557.</div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img class="foot-logo" src="images/logos/superior-comfort-logo-transparent.png" alt="Superior Comfort Heating & Cooling">
+        <p>Philadelphia's trusted heating and cooling company. Keeping homes comfortable, all year long.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Services</h4>
+        <a href="#services">Furnace repair</a>
+        <a href="#services">Boiler service</a>
+        <a href="#services">Central air &amp; AC</a>
+        <a href="#services">Heat pump install</a>
+        <a href="#services">Water heater service</a>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a href="tel:+12154166557">(215) 416-6557</a>
+        <a href="mailto:1superiorcomfortllc@gmail.com">1superiorcomfortllc@gmail.com</a>
+        <p>545 N 58th Street<br>Philadelphia, PA 19131</p>
+        <a href="#book">Book a service visit →</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 Superior Comfort Heating &amp; Cooling · Licensed &amp; insured</p>
+      <p>Philadelphia · Delaware · Montgomery · Bucks</p>
+    </div>
+  </div>
+</footer>
+<script>
+const menuBtn=document.getElementById('menuBtn'),navlinks=document.getElementById('navlinks');
+menuBtn.addEventListener('click',()=>{const o=navlinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',o)});
+navlinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navlinks.classList.remove('open');menuBtn.setAttribute('aria-expanded','false')}));
+const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(!reduce&&'IntersectionObserver'in window){
+  const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+}else{document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'))}
+document.getElementById('bookForm').addEventListener('submit',(e)=>{
+  e.preventDefault();const f=e.target;
+  if(!f.name.value||!f.email.value||!f.phone.value){[f.name,f.email,f.phone].forEach(i=>{if(!i.value)i.style.borderColor='#9D6858'});return}
+  document.getElementById('confirm').classList.add('show');
+  f.querySelector('.ticket-submit').textContent='Request received ✓';
+});
+</script>
+</body>
+</html>
