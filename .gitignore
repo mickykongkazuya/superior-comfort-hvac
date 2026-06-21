@@ -11,3 +11,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Local preview server (not for production)
+server.js
